@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 # Load trained model
 @st.cache_resource()  # Ensures model loads only once for efficiency
 def load_model():
-    return tf.keras.models.load_model("DenseNet_model.h5")
+    return tf.keras.models.load_model("DenseNet_model (1).tflite")
 
 model = load_model()
 
